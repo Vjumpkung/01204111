@@ -1,3 +1,2 @@
 input_decimal = float(input("Input decimal: "))
-convert_it = int(input_decimal)
-print((str(convert_it)+" ")*convert_it)
+print((str(int(input_decimal))+" ")*int(input_decimal))
