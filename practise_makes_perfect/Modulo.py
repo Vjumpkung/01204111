@@ -1,6 +1,9 @@
 my_list = []
-for i in range(10):
-    my_input = int(input())
+N = int(input("N: "))
+M = int(input("M: "))
+for i in range(N):
+    
+    my_input = int(input(f"Input number {i+1}: "))
     my_list.append(my_input)
 my_list.sort()
 def sameNum (x):
@@ -15,10 +18,9 @@ def sameNum (x):
 my_list = sameNum(my_list)
 mod_ls = []
 for i in range(len(my_list)):
-    get_mod_ls = my_list[i] % 42
+    get_mod_ls = my_list[i] % M
     mod_ls.append(get_mod_ls)
 mod_ls.sort()
 mod_ls = sameNum(mod_ls)
 #print(mod_ls)
-
 print(len(set(mod_ls)))
