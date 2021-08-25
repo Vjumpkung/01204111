@@ -10,4 +10,5 @@ def sigma_i_cube (x):
 
 i = 100
 diff = sigma_i_cube(i) - sigma_i_square(i)
+print(diff)
 

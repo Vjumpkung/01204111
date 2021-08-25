@@ -5,7 +5,7 @@ import numpy as np
 #n = int(input("Enter output type (only 1..5:) "))
 #inputt = "Put a value v at the top of stack s"
 inputt = "ABCDEFGHIJKLM"
-n = 5
+n = 1
 #inputt = [["ABCD"],["EFGH"],["IJKL"],["M***"]]
 if n == 1:
     i = 1
