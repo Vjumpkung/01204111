@@ -54,9 +54,22 @@ while True:
     if x == "": break 
     row = list(map(int,x.split()))
     col.append(row)'''
+def new_prachan_buy(gid):
+    want_to = []
+    for i in range(len(gid)):
+        for j in range(len(gid[0])):
+            m,n = i,j
+            try:
+                if m >= 0 and n >= 0:
+                    want_to.append(gid[i][j] + gid[i][j+1]*1.1 + gid[i+1][j+1]*1.1 + gid[i+1][j]*1.1**2)
+                    gid = gid[::-1]
+                    want_to.append(gid[i][j] + gid[i][j+1]*1.1 + gid[i+1][j+1]*1.1 + gid[i+1][j]*1.1**2)
+                    gid = gid[::-1]
+            except IndexError:
+                pass
 def check_answer(col):
     if not len(col[0]) != len(col[1]):
-        print(f"{min(prachan_buy(col)):.2f}")
+        print(f"{min(new_prachan_buy(col)):.2f}")
     else:
         print("Can't Buy")
 col1 = [[10, 12, 50], [50, 40, 20]]
