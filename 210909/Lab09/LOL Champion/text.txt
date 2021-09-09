@@ -1,0 +1,17 @@
+3       ---     Galio   ---     the Colossus
+4       ---     Twisted Fate    ---     the Card Master
+8       ---     Vladimir        ---     the Crimson Reaper
+22      ---     Ashe    ---     the Frost Archer
+25      ---     Morgana ---     Fallen Angel
+26      ---     Zilean  ---     the Chronokeeper
+34      ---     Anivia  ---     the Cryophoenix
+72      ---     Skarner ---     the Crystal Vanguard
+75      ---     Nasus   ---     the Curator of the Sands
+84      ---     Akali   ---     the Fist of Shadow
+113     ---     Sejuani ---     Fury of the North
+117     ---     Lulu    ---     the Fae Sorceress
+157     ---     Yasuo   ---     the Cancer
+240     ---     Kled    ---     the Cantankerous Cavalier
+412     ---     Thresh  ---     the Chain Warden
+497     ---     Rakan   ---     The Charmer
+516     ---     Ornn    ---     The Fire below the Mountain
