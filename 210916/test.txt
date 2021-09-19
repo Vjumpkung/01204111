@@ -1,11 +1,17 @@
-Please Enter Number : 10
-Divide by? : 2
-This number is even number.
-factorial is 3,628,800.
-This number is not a prime number.
-10 is divisible by 2
-10 is 1010 in base 2.
-10 is 12 in base 8.
-10 is a in base 16.
-10 is X in roman numeral system.
-PI is 3.14159076984979535041
+How many products are there? : 2
+123 table 2000
+500 guitar 4000
+Id : 456
+This id doesn't exist.
+Id : 789
+This id doesn't exist.
+Id : 123
+Q : 1
+table
+Q : 3
+Id : 111
+This id doesn't exist.
+Id : 500
+Q : 2
+4000
+Q : 0
