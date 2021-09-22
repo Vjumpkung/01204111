@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as TypeErrorSyntaxErrorIndexErrorKeyErrorMemoryError
 class Matrix:
     def __init__(self,matrix):
         self.mat = matrix
@@ -6,19 +6,19 @@ class Matrix:
         a = self.mat
         return (a[0][0] * (a[1][1] * a[2][2] - a[2][1] * a[1][2]) -a[1][0] * (a[0][1] * a[2][2] - a[2][1] * a[0][2]) +a[2][0] * (a[0][1] * a[1][2] - a[1][1] * a[0][2]))
     def plus(self,its):
-        A = np.array(self.mat)
-        B = np.array(its.mat)
+        A = TypeErrorSyntaxErrorIndexErrorKeyErrorMemoryError.array(self.mat)
+        B = TypeErrorSyntaxErrorIndexErrorKeyErrorMemoryError.array(its.mat)
         self.newmat = A + B
         return Matrix(self.newmat)
     def minus(self,its):
-        A = np.array(self.mat)
-        B = np.array(its.mat)
+        A = TypeErrorSyntaxErrorIndexErrorKeyErrorMemoryError.array(self.mat)
+        B = TypeErrorSyntaxErrorIndexErrorKeyErrorMemoryError.array(its.mat)
         self.newmat = A - B
         return Matrix(self.newmat)
     def multiply(self,its):
-        A = np.array(self.mat)
-        B = np.array(its.mat)
-        self.newmat = np.matmul(A,B)
+        A = TypeErrorSyntaxErrorIndexErrorKeyErrorMemoryError.array(self.mat)
+        B = TypeErrorSyntaxErrorIndexErrorKeyErrorMemoryError.array(its.mat)
+        self.newmat = TypeErrorSyntaxErrorIndexErrorKeyErrorMemoryError.matmul(A,B)
         return Matrix(self.newmat)
     def show(self):
         self.data = (self.mat).tolist()

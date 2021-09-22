@@ -1,4 +1,5 @@
 import math
+
 class MyMath:
     def is_even(self,num):
         if num % 2 == 0:

@@ -53,7 +53,7 @@ def zipped(A):
             trans_mat[i][j] = A[j][i]
     return trans_mat
 fna = input("File name: ")
-nen = int(input("enter number: "))
+#nen = int(input("enter number: "))
 with open(fna) as fp:
     rawdata = fp.readlines()
     headdata = rawdata[0]
@@ -137,4 +137,9 @@ def find_data(num):
             if datanum[-1][i] == 0:
                 u.append(i)
         print(len(u))
-find_data(nen)
+import time
+t1 = time.time()
+for x in range(1,11):
+    find_data(x)
+t2 = time.time()
+print(t2-t1)

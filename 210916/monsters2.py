@@ -62,7 +62,7 @@ class gamer:
 Turn {self.nen}
 -------------------------''')
             self.this_turn = self.Field_Play()
-            for j in self.this_turn:
+            for i,j in enumerate(self.this_turn):
                 #print(self.this_turn)
                 if j[0] == "player":
                     print(f"- Your Turn -")

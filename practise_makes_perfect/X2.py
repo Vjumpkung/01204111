@@ -1,0 +1,1 @@
+(lambda x1,S : print(f"{2*S-x1}"))(*list(map(int,input().split())))
