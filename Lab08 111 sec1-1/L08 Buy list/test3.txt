@@ -1,0 +1,12 @@
+List
+grape 20
+apple 4
+orange 12
+rice 150
+bread 14
+Price
+bread 21
+orange 13
+rice 5
+apple 26
+grape 41

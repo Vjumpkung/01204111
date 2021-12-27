@@ -1,0 +1,5 @@
+wi_na_tee = int(input("s: "))
+hours = int(wi_na_tee//3600)
+minute = int((wi_na_tee - (hours*3600))//60)
+seconds = wi_na_tee - (minute*60) - (hours*3600)
+print(f"{wi_na_tee} seconds equals {hours} hour(s) {minute} minute(s) and {seconds} second(s)")

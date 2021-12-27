@@ -1,0 +1,1 @@
+(lambda M,possible_M: print(f"Min cost of {M} days = {min(possible_M)}"))(*(lambda cod,M : [M,[sum(cod[cursor:cursor+M]) for cursor in range(len(cod)) if cursor+M <= len(cod)]])(*((lambda N,M : [[int(input(f"cost of day {i+1} = ")) for i in range(N)],M])(int(input("N = ")),int(input("M = "))))))

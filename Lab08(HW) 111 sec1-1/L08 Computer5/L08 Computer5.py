@@ -1,0 +1,1 @@
+with open(input("filename: ")) as fp:print((lambda x : f"Count = {x.count('put')}")(fp.read()))
