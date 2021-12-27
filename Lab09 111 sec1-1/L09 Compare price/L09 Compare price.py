@@ -1,0 +1,2 @@
+import json
+print((lambda df,which : f"{(lambda x : min(x,key=lambda x : int(x[1]))[0])([(i['Brand'],i['Cost']) for i in df if which in i.values()])} : {(lambda x : min(x,key=lambda x : int(x[1]))[1])([(i['Brand'],i['Cost']) for i in df if which in i.values()])}")(json.load(open(input("Filename : "))),input()))

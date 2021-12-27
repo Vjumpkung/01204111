@@ -1,0 +1,1 @@
+with open(input("File name: ")) as df: print((lambda x : f"There are {x.count('.')} sentences and {len(x.split())} words.")(df.read().strip()))

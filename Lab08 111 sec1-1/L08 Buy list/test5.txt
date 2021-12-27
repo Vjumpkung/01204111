@@ -1,0 +1,13 @@
+Price
+orange 19
+bread 13
+apple 21
+meat 200
+icecream 112
+List
+meat 3
+apple 6
+grape 13
+bread 20
+orange 13
+icecream 3

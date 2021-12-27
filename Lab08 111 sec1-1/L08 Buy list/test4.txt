@@ -1,0 +1,12 @@
+Price
+bread 12
+apple 10
+icecream 90
+orange 15
+grape 25
+List
+grape 16
+bread 10
+orange 10
+apple 5
+icecream 2
